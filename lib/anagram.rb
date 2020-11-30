@@ -11,7 +11,7 @@ class Anagram
     anarray.each do |some_word|
       word_parse_arr = some_word.split("").sort
       if word_parse_arr == origin_arr
-
+        new_arr << some_word
       end
     end
   end
