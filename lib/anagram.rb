@@ -5,14 +5,14 @@ class Anagram
     @word = word
   end
 
-def match(anarray)
-origin_arr = @word.split("").sort
-anarray.each do |some_word|
-word_parse_arr = some_word.split("").sort
-if word_parse_arr == origin_arr
-return some_word
-end
-end
-end
+  def match(anarray)
+    origin_arr = @word.split("").sort
+    anarray.each do |some_word|
+      word_parse_arr = some_word.split("").sort
+      if word_parse_arr == origin_arr
+
+      end
+    end
+  end
 
 end
