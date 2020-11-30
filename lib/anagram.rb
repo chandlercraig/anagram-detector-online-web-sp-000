@@ -14,6 +14,7 @@ class Anagram
         new_arr << some_word
       end
     end
+    new_arr
   end
 
 
