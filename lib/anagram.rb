@@ -6,6 +6,7 @@ class Anagram
   end
 
   def match(anarray)
+    new_arr = []
     origin_arr = @word.split("").sort
     anarray.each do |some_word|
       word_parse_arr = some_word.split("").sort
@@ -14,5 +15,6 @@ class Anagram
       end
     end
   end
+
 
 end
