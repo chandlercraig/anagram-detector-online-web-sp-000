@@ -6,7 +6,8 @@ class Anagram
   end
 
   def match(anarray)
-    
+    anarray.each do |word|
+      word.split("")
   end
 
 end
