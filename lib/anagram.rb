@@ -13,6 +13,7 @@ class Anagram
         some_word
       else
         []
+   end
   end
  end
 end
